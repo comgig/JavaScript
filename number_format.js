@@ -1,0 +1,1 @@
+const number_format=(e,d,r)=>{const t=parseFloat(e).toFixed(d).split(".");return","===r?t[0].replace(/(\d)(?=(\d{3})+(?!\d))/g,"$1,")+(t[1]?`.${t[1]}`:""):t[0].replace(/(\d)(?=(\d{3})+(?!\d))/g,"$1")+(t[1]?`.${t[1]}`:"")};
